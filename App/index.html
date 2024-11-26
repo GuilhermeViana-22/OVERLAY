@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            height: 150px; /* Altura baixa */
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .container img {
+            width: 50px; /* Tamanho da imagem */
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .text {
+            font-size: 14px;
+            color: #333;
+            padding: 10px;
+            word-wrap: break-word;
+            max-width: 100%;
+        }
+    </style>
+    <title>Exemplo de Div</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia quam sit amet orci malesuada, eget lacinia tortor tincidunt. Nulla facilisi. Etiam malesuada, augue ac condimentum eleifend, ipsum felis malesuada justo, at consectetur metus ipsum eu augue. <img src="https://via.placeholder.com/50" alt="Imagem"> Praesent id gravida felis.
+    </div>
+</div>
+
+</body>
+</html>
